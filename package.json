@@ -1,0 +1,21 @@
+{
+  "name": "ws-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --files"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.15",
+    "qs": "^6.10.3",
+    "socket.io": "^4.4.1",
+    "uuidv4": "^6.2.12",
+    "ws": "^8.5.0"
+  }
+}
